@@ -15,7 +15,7 @@ final class RegisterSubscriptionAction
     /**
      * RegisterSubscriptionAction constructor.
      */
-    public function __construct(private readonly UserSubscriptionManagerRegistry $registry)
+    public function __construct(private UserSubscriptionManagerRegistry $registry)
     {
     }
 
